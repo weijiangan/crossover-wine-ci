@@ -67,7 +67,7 @@ jobs:
 
       - name: Add distversion.h
         run: |
-          cp distversion.h sources/wine/include/distversion.h
+          cp distversion.h sources/wine/programs/winedbg/distversion.h
 
       - name: Configure wine64
         run: |
